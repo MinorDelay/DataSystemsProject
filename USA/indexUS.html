@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="mainUSA.js"></script>
+<script src="america.js"></script>
+<script src="radiobutton.js"></script>
+<script src="scatter.js"></script>
+<link rel="stylesheet" type="text/css" href="styleUSA.css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-fixed-top navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="../Europe/indexHome.html">G2 terrorism</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="USA/indexUS.html">Sociodemographics and terrorism</a></li>
+				<li><a href="../Europe/indexVRA.html">Vehicle car rammings and trends</a></li>
+			</ul>
+		</div>
+	</nav>
+			<div id="demogrTxt">
+		    <h4>A visual representation of terrorist attacks and social demographics in the US</h4>
+		    <p>
+		      Terrorism is a destructive force worldwide that stirs up fear through causing chaos and crisis,
+					stripping away the illusions of safety from the public consciousness. The war on terror declared at the turn of the 21st century stimulated
+					research surrounding terrorism and political violence, aiming to study the causes, process and effects of terrorism. Time and again questions
+					such as ‘what are the causes of terrorism?’ and ‘which places are more at risk of attacks?’
+
+		    </p>
+		  </div>
+		<div id="thebuttons">
+			<div id ="rb1">
+			<form>
+				<input type="radio" name="data" id = "gunLegislation" value="gunLegislation" checked>Gun legislation [Categorically divided into 5 levels of strictness of gun legislation]<br>
+				<input type="radio" name="data" id = "unemploymentRates" value="unemploymentRates" >Unemployment rates [%]<br>
+				<input type="radio" name="data" id = "medianIncome" value="medianIncome" >Median Income [USD]<br>
+				<input type="radio" name="data" id = "povertyRates" value="povertyRates" >Poverty Rates [%]<br>
+				<input type="radio" name="data" id = "GDP" value="GDP" >GDP [USD]<br>
+				<input type="radio" name="data" id = "votingRates" value="votingRates" >Voting Rates [%]<br>
+		</div>
+			<div id="rb2">
+				<input type="radio" name="data" id = "Urbanization" value="Urbanization" >Urbanization [Percentage of inhabitants that lives in cities]<br>
+				<input type="radio" name="data" id = "PopulationDensity" value="PopulationDensity" >Population Density [Inhabitants/sq mile]<br>
+				<input type="radio" name="data" id = "Population" value="Population" >Population [Persons]<br>
+				<input type="radio" name="data" id = "propertyCrimeRate" value="propertyCrimeRate" >Property Crime Rate [Per 1000 citizens per year]<br>
+				<input type="radio" name="data" id = "ViolentCrimeRate" value="ViolentCrimeRate" >Violent Crime Rate [Per 1000 citizens per year]<br>
+				<input type="radio" name="data" id = "armedAssaults" value="armedAssaults" >Armed Assaults [Absolute number of attacks]<br>
+			</form>
+		</div>
+	</form>
+</div>
+		<div id='Grafiek'>
+		</div>
+		<div id="CorrelationBorder">
+   			<img src="Correlation.jpeg" id="cor">
+		</div>
+
+</body>
+</html>

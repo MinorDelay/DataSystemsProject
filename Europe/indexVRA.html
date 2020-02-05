@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>Correlating socialdemographic statistics with terrorism frequency</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+
+<script src="europe.js"></script>
+</head>
+<script src="slider1.js"></script>
+<body>
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="indexHome.html">G2 terrorism</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="../USA/indexUS.html">Sociodemographics and terrorism</a></li>
+        <li class="active"><a href="indexVRA.html">Vehicle car rammings and trends</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id = "topTitle">
+    <h2>Vehicle car rammings trend</h2>
+  </div>
+  <div id="rectMap">
+  <div id="europeMap"></div>
+  </div>
+  <div id="expText">
+    <h4>Exploring trends in spatial and temporal space</h4>
+    <p id="p1">
+Terrorism is a destructive force worldwide that stirs up fear through causing chaos and crisis, stripping away the illusions of safety from the public consciousness. The war on terror declared at the turn of the 21st century stimulated research surrounding terrorism and political violence, aiming to study the causes, process and effects of terrorism[1]. Time and again questions such as ‘what are the causes of terrorism?’ and ‘which places are more at risk of attacks?’ are brought to the focus of scholars, policymakers and the public alike in an effort to deter or avoid potential tragedies. Though despite the ample resources that can be found discussing the motivations of certain groups and ideologies, theoretical research in the area of the general causes of terrorism remains analytically barren. While there was an observable shift towards more data driven analysis in the years since the 9/11 attacks, research in the causes of terrorism remains highly contested, with it deemed problematic from a methodological perspective and not inspiring to the policy community for its guidance for explaining, predicting and preventing terrorism
+    </p>
+  </div>
+  <button id="startTemporal">Start Temporal</button>
+  <button id="startSpatial">Start Spatial</button>
+  <div id ="vis"></div>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+/* body {
+	font: 11px sans-serif;
+} */
+
+.projectDesc{
+	position:absolute;
+	width: 1252px;
+	/* padding: 20px; */
+	left:260px;
+	top:75px;
+	/* float:left; */
+	background: lightGrey;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+
+#homeTitle{
+	position: relative;
+	left:20px;
+}
+#homeText{
+	position: relative;
+	left:20px;
+}
+
+.frameVid{
+	position:absolute;
+	left: 260px;
+	background: lightGrey;
+	border-radius: 25px;
+	border: 2px solid black;
+	width: 1252px;
+	height: 748px;
+	top:195px;
+}
+
+#video{
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+
+#topTitle{
+	position: relative;
+	left:254px;
+	top: 50px;
+}
+
+#europeMap{
+	position:absolute;
+  float:left;
+	left: 234px;
+	background: lightGrey;
+	border-radius: 25px;
+	border: 2px solid black;
+	width: 625px;
+	height: 600px;
+	top:100px;
+}
+
+#svgMap{
+	background: lightBlue;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+#rectMap{
+	position:absolute;
+	left: 20px;
+	right: 20px;
+	top: 40px;
+	bottom:20px;
+}
+
+#expText{
+	width: 760px;
+	padding: 20px;
+	position:absolute;
+	left:934px;
+	top:140px;
+	float:left;
+	background: lightGrey;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+
+#startTemporal{
+  position:relative;
+	left:1284px;
+	top:415px;
+}
+
+#startSpatial{
+  position:relative;
+	left:1084px;
+	top:415px;
+}
+
+.ticks {
+     font-size: 10px;
+   }
+
+   .track,
+   .track-inset,
+   .track-overlay {
+     stroke-linecap: round;
+   }
+
+   .track {
+     stroke: #000;
+     stroke-opacity: 0.3;
+     stroke-width: 10px;
+   }
+
+   .track-inset {
+     stroke: #dcdcdc;
+     stroke-width: 8px;
+   }
+
+   .track-overlay {
+     pointer-events: stroke;
+     stroke-width: 50px;
+     stroke: transparent;
+     cursor: crosshair;
+   }
+
+   .handle {
+     fill: #fff;
+     stroke: #000;
+     stroke-opacity: 0.5;
+     stroke-width: 1.25px;
+   }
+
+#vis{
+	left:934px;
+	top:533px;
+	position:absolute;
+	float:left;
+	background: lightGrey;
+	border-radius: 25px;
+	border: 2px solid black;
+}
